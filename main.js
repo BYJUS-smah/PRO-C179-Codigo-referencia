@@ -1,7 +1,7 @@
 let latitude, longitude, destination;
 
 $(document).ready(function () {
-    alert("Please allow the device to know your location!")
+    alert("¡Por favor, permite que el dispositivo conozca tu ubicación!")
     initGeolocation();
 })
 
@@ -16,7 +16,7 @@ function initGeolocation() {
         navigator.geolocation.getCurrentPosition(success);
     }
     else {
-        alert("Sorry, your browser does not support geolocation services.");
+        alert("Lo sentimos, tu navegador no es compatible con los servicios de geolocalización.");
     }
 }
 
