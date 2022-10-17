@@ -24,7 +24,7 @@ function success(position) {
     longitude = position.coords.longitude;
     latitude = position.coords.latitude
 
-    // Initializing Mapbox
+    // Inicializar Mapbox
     mapboxgl.accessToken = 'pk.eyJ1IjoiYXBvb3J2ZWxvdXMiLCJhIjoiY2ttZnlyMDgzMzlwNTJ4a240cmEzcG0xNyJ9.-nSyL0Gy2nifDibXJg4fTA';
 
     var map = new mapboxgl.Map({
